@@ -1,0 +1,25 @@
+mat-form-field{
+    width: 400px;
+    padding: 10px 0;
+}
+
+.contenedor-izquierdo{
+    border-right: 2px solid #6C3483;
+}
+
+.card-body{
+    overflow-y: scroll !important;
+}
+
+.container-fluid{
+    background-color: #6C3483;
+}
+
+.content-center{
+    height: 100vh;
+}
+
+.contenedor{
+    background-color: lightgray;
+    padding: 50px;
+}

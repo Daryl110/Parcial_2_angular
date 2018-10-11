@@ -1,0 +1,64 @@
+<div class="container-fluid">
+  <div class="container">
+    <div class="content-center">
+      <div class="row contenedor">
+        <div class="col contenedor-izquierdo">
+          <div class="row">
+            <h1 class="titulo">
+              Crear Articulo
+            </h1>
+          </div>
+          <div class="row">
+            <div class="col">
+              <mat-form-field>
+                <input matInput placeholder="Titulo" id="tituloArticulo">
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <mat-form-field>
+                <textarea matInput placeholder="Texto" id="texto"></textarea>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <button mat-raised-button color="primary" (click)="crearArticulo();">Crear</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <button mat-raised-button color="primary" routerLink="/">Cancelar</button>
+            </div>
+          </div>
+        </div>
+        <div class="col contenedor-derecho">
+          <div class="row">
+            <div class="col">
+              <h1 class="titulo">
+                Arculos
+              </h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="row">
+                <div class="ui-g-12 ui-md-4">
+                  <p-scrollPanel [style]="{width: '500px', height: '400px'}">
+                    <div class="row">
+                      <div class="col">
+                        <div class="accordion" id="contenedor-articulos">
+                        </div>
+                      </div>
+                    </div>
+                  </p-scrollPanel>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+.col{
+    margin-top: 15px !important;
+}
+
+.contenedor{
+    height: 100vh;
+    background-color: #20212b;
+}
+
+.division{
+    background-color: lightgray;
+    margin-right: 10px;
+    padding: 10px !important;
+    border-radius: 5% !important;
+}

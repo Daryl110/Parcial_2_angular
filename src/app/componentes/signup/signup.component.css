@@ -1,0 +1,24 @@
+.formulario{
+    background-color: lightgray;
+    margin: 0;
+    padding: 60px;
+    border-radius: 5%;
+}
+
+.container-fluid{
+    height: 100vh;
+    background-color: #6C3483;
+}
+
+.titulo{
+    color: #673ab7;
+}
+
+.linea{
+    border: 1px solid #673ab7;
+}
+
+mat-form-field {
+    width: 300px !important;
+    padding: 15px;
+}

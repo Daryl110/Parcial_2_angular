@@ -1,0 +1,60 @@
+<div class="container-fluid">
+  <div class="content-center center-xs">
+    <form class="formulario">
+      <div class="row">
+        <div class="col">
+          <h1 class="titulo">Signup</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <hr class="linea">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <mat-form-field>
+            <input matInput placeholder="Ingrese email" [formControl]="email" required>
+            <mat-error *ngIf="email.invalid">{{getEmailErrorMessage()}}</mat-error>
+          </mat-form-field>
+        </div>
+        <div class="col">
+          <mat-form-field>
+            <input matInput placeholder="Ingrese su nombre de usuario" [formControl]="nombreUsu" required>
+            <mat-error *ngIf="email.invalid">{{getNombreUsuErrorMessage()}}</mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <mat-form-field>
+            <input matInput placeholder="Ingrese su nombre">
+          </mat-form-field>
+        </div>
+        <div class="col">
+          <mat-form-field>
+            <input matInput placeholder="Ingrese su apellido">
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <mat-form-field>
+            <input matInput placeholder="Ingrese su contraseña" [formControl]="contrasena" required>
+            <mat-error *ngIf="email.invalid">{{getContrasenaErrorMessage()}}</mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+            <button mat-raised-button color="primary" routerLink="/dashboard">Signup</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+            <button mat-raised-button color="primary" routerLink="/">Cancelar</button>
+        </div>
+      </div>
+    </form>
+  </div>  
+</div>

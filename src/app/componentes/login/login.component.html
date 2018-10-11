@@ -1,0 +1,35 @@
+<div class="container-fluid">
+  <div class="content-center center-xs">
+    <form class="formulario">
+      <div class="row">
+        <div class="col col-img">
+          <img src="assets/img/user.png"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <mat-form-field class="txt">
+            <input matInput placeholder="E-Mail">
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <mat-form-field class="txt">
+            <input matInput type="password" placeholder="Password">
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button pButton label="Entrar" class="btn-log" routerLink="/dashboard"></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button pButton label="Cancelar" class="btn-log" routerLink="/" (click)="mostrarInicio();"></button>
+        </div>
+      </div>
+    </form>
+  </div>  
+</div>
